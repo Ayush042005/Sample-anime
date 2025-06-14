@@ -1,0 +1,194 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Spline+Sans%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Anime sample</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111418] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Spline Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#111418] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="List" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1">AnimeHub</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-white" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="@container">
+          <div class="@[480px]:p-4">
+            <div
+              class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10"
+              style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuD8cqIhqp1zEj_BKra6eU8F2Z5gijmU9ppn8Aj0MASGM788T_ms2lnThcRDJRvb4AzYOeM6LCID-FD1WN69FqonHXjrUqSFLL5Idq3Z-0GkZGr8rQMlxj69f4_Ee30ZD4BUPgIi2JWcBqe7mqatYt6utv_yfDRxU_Poq8-kuXTw4IkXGxYyFVFwZngsgUqrvww_NTa76PDBbSwbE7e_KRt9oSUYTT49Y77sjmQx1OYeccpDNTWXyp1QFr6w9B7kK1ySOMYK-jgRh_rT");'
+            >
+              <div class="flex flex-col gap-2 text-left">
+                <h1
+                  class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                >
+                  Explore the World of Anime
+                </h1>
+                <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                  Dive into a vast library of anime series and movies, from timeless classics to the latest releases. Discover new favorites and revisit beloved stories.
+                </h2>
+              </div>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#0c7ff2] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+              >
+                <span class="truncate">Start Watching</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured Anime</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCWhPFFVlOagZvxAw87p5ORhBdB7zdbWUIBX2RENgTWP9DPSNvolmKueBluKY1Nsq4LNL_CgJw1HvF_Ky0Wg-5AB00KnK4cpQ0tY-XC3Jhn6jqpjRtPKzaoUfjielthfkxWAYpUYLhoF-jP7lGOqgVaMUBjEdZObUm92qF9UcbDqb9PrFZqnDY1fTuAtFswIzKTmdk4leNv84yiSNE2WJ03n8N2MKMbWo_X_D0Mdj7ezWQ7NSj-FSenYwl04IUSNpTvW9KJjrRGxQQP");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">The Hero's Journey</p>
+                <p class="text-[#9cabba] text-sm font-normal leading-normal">A young boy embarks on a quest to save his village.</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA13M2p-xqXJUMqk4O5CdJzN3jkdcyDh913z5W9c5_5jX_pnuiPGN72vsrRUMDgtslpOt_TCoaY3UCCjT2CVTjLTRbs9NPqM_-6TQR59d9lMkq4ESKvBTfitqKq-jhndG0vxNoQv-y_yaED-QS7Kx9msXCYaI0Z20cVkXEH8i0oeMHrAJ8AWyK3ZzLtdm99WNteIUPc9XrwEznmu_JHWYUyxc10tZdNbk33pzs6CNaTXNK8J7wbYh8zJhd3DHuKKZyGQ-UatnYIuM5L");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Mystic Chronicles</p>
+                <p class="text-[#9cabba] text-sm font-normal leading-normal">A group of friends uncover ancient secrets.</p>
+              </div>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWPyN6kktLPNZOLr74IWdL_GSaiqUvHeUyqvz-gCKTWsGnl3Rc1O5zHyrWHM-UiFJQzocJLzXOCBfXN4gATiOdCFMamUtiVpAw9JGuDAcmd8b1TGb0Ov_iDEWqTo39Bck2JDrlebgiu5ck4wpxUxravD8yjdw9_nksuQepxN-gV7ppkfkSOhSSxfqWJGJiQM420BR3-vE5ly3Pk9nWFb4qqnmd6DqOWtvP5VAWKDE0wIzl9R-OQQX0ER0JgY3_DR-vgusBl4aY2Ved");'
+              ></div>
+              <div>
+                <p class="text-white text-base font-medium leading-normal">Galactic Odyssey</p>
+                <p class="text-[#9cabba] text-sm font-normal leading-normal">A space adventure across the galaxy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Latest News</h2>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCtSOq5t4cCe1tlEfJoKp48n8As28xYMOBEPXi-qvpc_iolU-fFx-WIC66FL0HT31Ta3c7tpwdjZZ-sfF3wXagnkplKYT3M-aQ6n4Z-FI2CZXb_WJ51x4Unto6t0oDtVpXEc9JnKcgEx6m4w78y-A-Vg0kHRxpTZCAyaCfEzVtUbmL8eCHTBGXDVg1mE0aHg4Ij_a4uO_3TKOwhkXrdMFAsTreKSoq8ht90fE78OeF8ZkHFFGzCJA5OoYcAS5ykdtcRtYlFOI42yMoC");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">New Anime Series Announced</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">AnimeHub Staff</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCmdHeX45RovnTU9bwYG-VYGpid153xhxsPU612GaAdYz1qHfZ041hZBivi_trj8U-JbzH-CdE7fmoCWxN4CW6PfxTfOYng2y14cmTnoNZCKE64LyJ9w1HSUuGG46-DOZFXcpaf7akAVS4-4uJRWkALsZ57OerJu1ztMJzO5IFU3N8DNR2hal-ETwjOpf4iL87AfvReIE7bkdRqFqXeWa5mY7V1dcDH3W1WRHC6iSor8w_wH5XO0FUDEmHmF801qqI_uLlbgf2FOij-");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Upcoming Anime Movie Release</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">AnimeHub Staff</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSMtcuvJyCzY25jF8Pe5A8HVGcTOLBjm0g599iu2ZCYHRvttrNDv0e2poKEolpjfU4oxyJmdGIp5NmPyi4TGCUB5D1BtaFMWogp6QvJhgtJMujeQA6I-p8ijmzPjLW2oKHZTga9x9wkPO9RoHSqj0yxPtJe3YZl1xPEGkVW8ZJX4Nm0zwxtDbbJRK6S_X3Nl80b1KOCrbur_xTPkrrINXrdIp-vwfNlUQ326D3UzKOv6Ai4A6U6-0Xq637oFhus4nYYzWCJ-OJtfue");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Anime Convention Details</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">AnimeHub Staff</p>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Join Our Community</h2>
+        <div class="flex justify-center">
+          <div class="flex flex-1 gap-3 flex-wrap px-4 py-3 max-w-[480px] justify-center">
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0c7ff2] text-white text-sm font-bold leading-normal tracking-[0.015em] grow"
+            >
+              <span class="truncate">Login</span>
+            </button>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#283039] text-white text-sm font-bold leading-normal tracking-[0.015em] grow"
+            >
+              <span class="truncate">Register</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#283039] bg-[#1b2127] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Search</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="Bookmark" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Library</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Profile</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1b2127]"></div>
+      </div>
+    </div>
+  </body>
+</html>
